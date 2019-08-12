@@ -24,3 +24,5 @@ It offers services such as:
 8)Police Stations
 
 9)Medical Stores
+
+10)Garages
