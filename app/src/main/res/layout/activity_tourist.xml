@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.attharvaj.kr.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tourist Attractions"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true" />
+
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Agakhan Palace"
+                android:id="@+id/title1"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/agakhan" />
+
+            <TextView
+
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Landmark palace and infamous Gandhi prison.\nPalace built in 19th century by Aga Khan and the site of Gandhi's 2-year imprisonment in 1940s\nAddress: Gandhi National Memorial Society Aga Khan Palace, Road, Pune, Maharashtra 411006\nCloses: 5:30PM\nPhone: 020 2970 8575\nYear built: 1892"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Shaniwar Wada"
+                android:id="@+id/title2"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/shanivar" />
+
+            <TextView
+
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="18th-century Peshwa fort with large gate\nPeshwa palace fort built in the 1740s, with a main gate big enough to let elephants pass throughAddress: Shaniwar Peth, Pune, Maharashtra 411030\nCloses: 6PM\nArchitectural style: Maratha Empire\nYear built: 1732"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sinhagad Fort"
+                android:id="@+id/title3"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/sinhagadfort" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Clifftop fortress, memorial and temple\nHistoric hilltop fort with a memorial for 17th-century emperors, plus a temple to the goddess Kali.\nAddress: Sinhagad Ghat Rd, Thoptewadi, Maharashtra 411025\nCloses :6PM"></TextView>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Raja Dinkar Kelkar Museum"
+                android:id="@+id/title4"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/rajadinkar" />
+
+            <TextView
+
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Museum housing one man's varied collection of 20,000+ Indian artifacts ranging from toys to artwork.Address: No. 1377/78, Kamal Kunj, Bajirao Rd, Natu Baag, Shukrawar Peth, Pune, Maharashtra 411002 \nCloses: 5:30PM\nPhone: 020 2448 2101"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Dagadusheth Halwai Ganapati Temple"
+                android:id="@+id/title5"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/dagadusheth" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Hindu temple with large gold Ganesh idol\nHindu temple popular with pilgrims, with marble interiors and 7.5-ft Ganesh idol in gold.\nAddress: Ganpati Bhavan, 250, Chhatrapati Shivaji Maharaj Rd, Budhwar Peth, Pune, Maharashtra 411002\n
+Phone: 020 2447 9222"/>
+
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Pataleshwar"
+                android:id="@+id/title6"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/patal" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Dedicated to the Hindu god Shiva, this compact rock-cut cave temple dates to the 8th century.\nAddress: Jangali Maharaj Rd, Revenue Colony, Shivajinagar, Pune, Maharashtra 411005"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Rajiv Gandhi Zoological Park"
+                android:id="@+id/title7"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/rajiv" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Zoo with a snake park, birds and mammals.This large zoo with a lake and greenery has a snake park with many reptiles and an animal rescue center.\nAddress: Pune-Satara Road, Opp. Katraj Dairy, Katraj, Pune, Maharashtra 411046
+Opened: 14 March 1999\nCloses: 5PM\nPhone: 020 2436 7712\nNumber of animals: 362\nNotable animals: Kaif, Jagir, Devid, Julie, Damini, Razia,etc. \nExhibits: Asiatic lion, White Tiger, Bengal Tiger, Sloth Bear, Leopard, Elephant"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Pune-Okayama Friendship Garden"
+                android:id="@+id/title8"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/okayama" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Japanese-style green space with pergolas\nJapanese garden set on 10 acres with paths and wooden pergolas, plus fish ponds and a kids' play area.\nAddress: Sinhgad Rd, Pune Okayama Friendship Garden, Dattawadi, Pune, Maharashtra 411030\nOpens 4PM\nPhone: 020 2553 8553"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Khadakwasla Dam"
+                android:id="@+id/title9"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/khadakwasla" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="The reservoir created by this dam offers recreation opportunities, views, picnicking and a snack shop.\nConstruction started: 1961\nClosed: 1961\nHeight: 32 m\nOpened: 1869\nLocation: Khadakwasla Village, Pune, Maharashtra; India"></TextView>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lal Mahal"
+                android:id="@+id/title10"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/lalmahal" />
+
+            <TextView
+
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Reconstructed 17th-century Red Palace\nModern reconstruction of the Red Palace, home of legendary 17th-century warrior king Shivaj\nAddress: Shivaji Road, Durvankur Society, Kasba Peth, Pune, Maharashtra 41101\nClosed ⋅ Opens 4PM
+"/>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Saras Baug"
+                android:id="@+id/title11"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/sarasbaug" />
+
+            <TextView
+
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Saras Baug is a major landmark in the city of Pune in India. The place where the park now stands was once occupied by a small lake. However, the lake dried up and was later\nAddress: Saras Baug, Pune, Maharashtra 411030\nBuilt: 18th century"/>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Chaturshringi Temple"
+                android:id="@+id/title12"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/chaturshringi" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Hillside temple with a steep ascent
+
+Hillside Hindu temple known for its steep entrance steps, vibrant facade and landscaped gardens\nAddress: Senapati Bapat Road, Near, Pune University Rd, Gokhalenagar, Pune, Maharashtra 411016\nPhone: 020 2563 9032"></TextView>
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Pashan Lake"
+                android:id="@+id/title13"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/pashan" />
+
+            <TextView
+
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Lake and birdwatching"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mulshi Dam"
+                android:id="@+id/title14"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/mulshi" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Scenic getaway for hiking and photos\nCirca-1927 dam and reservoir set against a mountain backdrop, with hiking and photo opportunities.\nOpened: 1927\nLocation: Pune District, Maharashtra; India"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Taljai Hills"
+                android:id="@+id/title15"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/taljai" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Dedicated to the Hindu god Shiva, this compact rock-cut cave temple dates to the 8th century.\nAddress: Jangali Maharaj Rd, Revenue Colony, Shivajinagar, Pune, Maharashtra 411005"/>
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Krushnai Water Park"
+                android:id="@+id/title16"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/krushnai" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:text="Playful water park with slides and pools.\nWhimsical place with swimming pools and long waterslides, along with a shaded concession stand.\nAddress: Base, Gat No. 186, Donje Gaon-Sinhagad Road, Sinhgad Rd, Donje Gaon, Maharashtra 411025\nCloses: 6PM\nPhone: 093721 54617
+"/>
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Kamala Nehru Park, Pune"
+                android:id="@+id/title17"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/kamla_nehru" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Urban park with a playground and pathways\nRecreational green space featuring a children's play area, running path and a displayed military jet.\nAddress: Harshvardhan Society Lane Number 11 Deccan Gymkhana, Erandwane, Pune, Maharashtra 411004\nOpens: 4PM"/>
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Empress Botanical Garden"
+                android:id="@+id/title18"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/empress" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Botanical gardens with local flora.\nSprawling botanical garden specializing in regional plants, with rare trees, flowers and a kids' area.\nAddress: Near Race Course, Empress Garden, Kavade Mala, Camp, Pune, Maharashtra 411001\nCloses: 6:30PM\nPhone: 020 2636 1840
+"></TextView>
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Shinde Chhatri"
+                android:id="@+id/title19"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/shinde" />
+
+            <TextView
+
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Shinde Chhatri, located in Wanwadi, a well known place in Pune, India, is a memorial dedicated to the 18th century military leader Mahadji Shinde who served as the commander-in-chief of the Maratha\nAddress: Wanawadi Rd, Pune Cantonment, Pune, Maharashtra 411001\nCloses: 8PM" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Osho Garden"
+                android:id="@+id/title20"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/osho" />
+
+            <TextView
+
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Garden and architecture\nAddress: 19, Gopal Rao Bevur Rd, Iricen Railway Colony, Koregaon Park, Pune, Maharashtra 411001\nOpens: 3PM"/>
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ISKCON NVCC Temple"
+                android:id="@+id/title21"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/iskcon" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Address: Iskcon Nvcc Road, Katraj-Kondwa Bypass, Tilekar Nagar, Kondhwa Budruk, Pune, Maharashtra 411048\nPhone: 084118 45000"></TextView>
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mahatma Market"
+                android:id="@+id/title22"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/mahatmamarket" />
+
+            <TextView
+
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Mandai Market officially known as Mahathma Phule Mandai is the biggest vegetable market in Pune City, India. It is located in the old city of Pune in Shukrawar Peth. The market's main entrance\nOpened: 1882\nOwner: Pune Municipal Corporation\nNo. of stores and services: 8 wings and 1 central tower\nNo. of floors: 1\nTotal retail floor area: 46,068.67 ft²\nAddresses: Shukrawar Peth, Pune, Pune"/>
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Balaji Mandir"
+                android:id="@+id/title23"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/balaji" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Balaji Mandir is a well-known Indian temple and landmark in Pashan, Pune. It was built by the Ahobila Mutt.\nAddress: Ward No. 8, Aundh Gaon, Aundh, Pune, Maharashtra 411027"/>
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Joshi's Museum of Miniature Railways"
+                android:id="@+id/title24"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/joshi" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Live shows featuring model trains\nOpened in 1998, this museum presents demonstrations of miniature trains on a model railway system.\nAddress: 17/1, B/2, Late GA Kulkarni Path, Next to, Kothrud, Pune, Maharashtra 411038\nCloses: 5PM\nPhone: 020 2543 5378"/>
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Katraj Lake"
+                android:id="@+id/title25"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/katrajlake" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Address: Katraj Vasahat, Katraj, Pune, Maharashtra 411046\nOpens: 4PM"/>
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Bird Valley Udyan"
+                android:id="@+id/title26"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/bird" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Popular lakeside park offering boating, a jogging track and grassy lawns, plus a children's play area.\nAddress: MIDC, Chinchwad, Pimpri-Chinchwad, Maharashtra 411019\nCloses: 7PM"/>
+
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Seven Wonders Dream Park"
+                android:id="@+id/title27"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/seven" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="5dp"
+                android:text="Address: Pratibha Society, Sivadarshan Poorgrasta Vasahat, Parvati Paytha, Pune, Maharashtra 411009"/>
+
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
